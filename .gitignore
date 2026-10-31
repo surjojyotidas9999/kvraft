@@ -1,0 +1,6 @@
+kvraft
+bench_run
+bench_data/
+*.sst
+*.wal
+*.tmp
