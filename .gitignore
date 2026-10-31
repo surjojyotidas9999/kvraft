@@ -4,3 +4,5 @@ bench_data/
 *.sst
 *.wal
 *.tmp
+kvraft_server
+data/
