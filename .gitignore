@@ -6,3 +6,5 @@ bench_data/
 *.tmp
 kvraft_server
 data/
+raft_node
+node*_data/
