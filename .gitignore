@@ -10,3 +10,6 @@ raft_node
 node*_data/
 node*_data/
 raft_node
+logs/
+acked.txt
+stop.flag
