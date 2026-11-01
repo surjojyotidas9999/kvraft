@@ -55,7 +55,7 @@ docker compose down
 3. Waits for the cluster to converge, then reads back **every acknowledged write** through the leader and from each node's own copy.
 4. Hard-kills **all** nodes at once, restarts them, and checks everything again.
 
-Result: **261 acknowledged writes, 0 lost.**
+Result: **153 acknowledged writes, 0 lost.**
 
 Run it with `./chaos.sh` (build `raft_node` first, see below).
 
