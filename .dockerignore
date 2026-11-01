@@ -1,0 +1,11 @@
+.git
+raft_node
+kvraft
+kvraft_server
+bench_run
+node*_data
+logs
+bench_data
+*.sst
+*.wal
+*.tmp

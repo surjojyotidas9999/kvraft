@@ -1,0 +1,24 @@
+services:
+  node1:
+    build: .
+    init: true
+    command: ["1", "node1:8000", "node2:8000", "node3:8000"]
+    ports: ["8001:8000"]
+    volumes: ["node1data:/app/node1_data"]
+  node2:
+    build: .
+    init: true
+    command: ["2", "node1:8000", "node2:8000", "node3:8000"]
+    ports: ["8002:8000"]
+    volumes: ["node2data:/app/node2_data"]
+  node3:
+    build: .
+    init: true
+    command: ["3", "node1:8000", "node2:8000", "node3:8000"]
+    ports: ["8003:8000"]
+    volumes: ["node3data:/app/node3_data"]
+
+volumes:
+  node1data:
+  node2data:
+  node3data:
