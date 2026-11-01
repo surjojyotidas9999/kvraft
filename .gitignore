@@ -8,3 +8,5 @@ kvraft_server
 data/
 raft_node
 node*_data/
+node*_data/
+raft_node
